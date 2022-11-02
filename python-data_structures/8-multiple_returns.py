@@ -6,5 +6,4 @@ def multiple_returns(sentence):
     else:
         set_length = 0
         first_letter = None
-
     return tuple((set_length, first_letter))
