@@ -1,15 +1,7 @@
 #!/usr/bin/python3
-""" My class module
-"""
+'''a function that returns the dictionary description with simple data structure'''
 
 
-class MyClass:
-    """ My class
-    """
-
-    def __init__(self, name):
-        self.name = name
-        self.number = 0
-
-    def __str__(self):
-        return "[MyClass] {} - {:d}".format(self.name, self.number)
+def class_to_json(obj):
+    '''Returns The dictionary Description with Simple data Structure'''
+    return obj.__dict__
