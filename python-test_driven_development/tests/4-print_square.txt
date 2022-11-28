@@ -1,0 +1,104 @@
+>>> print_square = __import__("4-print_square").print_square
+
+>>> print_square(4)
+##
+##
+
+>>> print_square(10)
+
+>>> print_square(0)
+####
+####
+####
+####
+
+>>> print_square(1)
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+##########
+
+"""
+Error
+"""
+
+>>> print_square()
+Traceback (most recent call last):
+...
+TypeError: print_square() missing 1 required positional argument: 'size'
+
+>>> print_square("111")
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square(222, 333, 444)
+Traceback (most recent call last):
+...
+TypeError: print_square() takes 1 positional argument but 3 were given
+
+>>> print_square(None)
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square(555.0)
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square(-666.0)
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square(-777)
+Traceback (most recent call last):
+...
+ValueError: size must be >= 0
+
+>>> print_square(8a888)
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square("square")
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square((99, 12))
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square([13, 13])
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square({14, 41})
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square({1:"Oil", 2:"Water"})
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square(False)
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square(True)
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
