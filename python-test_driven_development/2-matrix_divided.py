@@ -31,4 +31,3 @@ def matrix_divided(matrix, div):
                         new[count][a] = round(item / div, 2)
         else:
                 return (new)
-        
