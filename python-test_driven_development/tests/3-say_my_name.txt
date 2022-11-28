@@ -11,7 +11,7 @@ My name is Daniel Burongu
 My name is Ruth Biney
 
 >>> say_my_name("David", "Emmanuel")
-My name is Daniel Emmanuel
+My name is David Emmanuel
 
 >>> say_my_name("Deng", "Chol")
 My name is Deng Chol
