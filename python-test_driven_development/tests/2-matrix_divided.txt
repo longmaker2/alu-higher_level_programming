@@ -6,15 +6,15 @@ def matrix_divided(matrix, div):
     """"a function that divides all elements of a matrix"""
     if not isinstance(matrix, (list,)):
         raise TypeError("matrix must be a matrix "
-                        "a list of lists of integers or floats")
+                        "(list of lists) of integers/floats")
     for row in matrix:
         if type(row) != list:
             raise TypeError("matrix must be a matrix "
-                            "a list of lists of integers or floats")
+                            "(list of lists) of integers/floats")
         for item in row:
             if not isinstance(item, (int, float)):
                 raise TypeError("matrix must be a matrix"
-                                "a list of lists of integers or floats")
+                                " (list of lists) of integers/floats")
     common_size = len(matrix[0])
     for row in matrix:
         if len(row) != common_size:
@@ -29,4 +29,5 @@ def matrix_divided(matrix, div):
         new_matrix.append(list())
         for j in range(len(matrix[i])):
             new_matrix[i].append(round(matrix[i][j] / div, 2))
-    return
+    return new_matrix
+    
