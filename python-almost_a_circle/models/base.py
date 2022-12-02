@@ -1,6 +1,6 @@
 
 #!/usr/bin/python3
-#the first class Base
+'''the first class Base'''
 
 import json
 
@@ -8,7 +8,7 @@ import json
 class Base:
     """"
         Class Base
-        Class attribute :
+        attribute :
                 id: number
     """
     __nb_objects = 0
