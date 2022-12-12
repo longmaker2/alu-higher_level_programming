@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""
-    Create a script that lists all states from a database hbtn_0e_0_usa
+"""a script that lists all states
+from a database hbtn_0e_0_usa
 """
 
 import sys
