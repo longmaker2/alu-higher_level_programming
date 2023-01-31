@@ -10,4 +10,3 @@ switch (process.argv.length) {
 	  console.log('Arguments found');
 	  break;
   }
-  
