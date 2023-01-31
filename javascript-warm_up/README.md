@@ -57,6 +57,7 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 # More Info
 ### Install Node 14
 ```$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -```
+<br>
 ```$ sudo apt-get install -y nodejs```
 ### Install semi-standard
 [Documentation](https://intranet.aluswe.com/rltoken/n6FW86eM_laCRYFfuHKjXA)
